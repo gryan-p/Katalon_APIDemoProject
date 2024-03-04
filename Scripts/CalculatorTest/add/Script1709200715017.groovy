@@ -21,3 +21,5 @@ res = WS.sendRequestAndVerify(findTestObject('CalcularoeSOAPService/Addition'))
 
 response = WS.sendRequest(findTestObject('CalcularoeSOAPService/Addition'))
 
+response = WS.sendRequestAndVerify(findTestObject('CalcularoeSOAPService/Subtraction'))
+
